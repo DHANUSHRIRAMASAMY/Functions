@@ -1,0 +1,16 @@
+//function without argument and without rweturn value
+#include<stdio.h>
+int sum()
+{
+    int x=3,y=5;
+    printf("the sum is %d",x+y);
+}
+main()
+{
+    sum();
+    return 0;
+}
+******************************************
+OUTPUT:
+the sum is 8
+******************************************
