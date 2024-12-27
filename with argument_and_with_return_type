@@ -1,0 +1,19 @@
+//function with argument and with return type
+#include<stdio.h>
+int sum(int a,int b)
+{
+    return(a+b);
+}
+main()
+{
+    int x,y,z;
+    x=10;
+    y=20;
+    z=sum(x,y);
+    printf("The output is %d",z);
+    return 0;
+}
+***********************************************
+OUTPUT:
+The output is 30
+***********************************************
